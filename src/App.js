@@ -3,11 +3,13 @@ import './style.css';
 
 import Header from './components/Header';
 
-export default function App() {
+function App() {
   return (
     <div>
-      <Header text='hello OmOgbolahan'/>
+      <Header />
       <h1>Hello from the app component!</h1>
     </div>
   );
 }
+
+export default App;

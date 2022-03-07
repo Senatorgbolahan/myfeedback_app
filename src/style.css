@@ -226,3 +226,9 @@ input:focus {
     width: 80%;
   }
 }
+
+
+.headerStyles{
+  backgroundColor: rgba(0,0,0,0.4),
+  color: textColor
+}
