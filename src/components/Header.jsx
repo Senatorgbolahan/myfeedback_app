@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Header() {
+function Header({ text }) {
   return (
     <header className="container">
-      <h1>Hello from header app component!</h1>
+      <h1>{text}</h1>
     </header>
   );
 }
